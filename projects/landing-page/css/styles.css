@@ -75,7 +75,7 @@ section {
 }
 
 .navbar__menu .menu__link {
-    display: block;
+    display: inline;
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
@@ -83,11 +83,14 @@ section {
 }
 
 .navbar__menu .menu__link:hover {
-    background: #333;
+    background:aqua;
     color: #fff;
     transition: ease 0.3s all;
 }
 
+.active{
+    background: aqua;
+}
 /* Header Styles */
 .page__header {
     background: #fff;
